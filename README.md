@@ -1,36 +1,44 @@
-# Hi, I'm Jesse 👋
+# Hi, I'm Jesse Baugh 👋
 
-I'm a Computer Science student at Bellevue College with a focus on building clean, practical, and user‑centered software. I enjoy solving real problems with code, learning new technologies, and improving a little every day.
+I am a Computer Science student (BS) at Bellevue College (Expected Spring 2028), specializing in backend development, dependency-aware execution engines, and robust data pipelines. I am actively seeking Software Engineering internships for Summer 2027 to apply my skills in scalable systems, AI integrations, and cross-functional team collaboration.
 
-## 🔧 Tech Stack
-**Languages:** Python, Java, JavaScript  
-**Web:** HTML, CSS, Node.js  
-**Tools:** Git, GitHub, VS Code  
-**Currently Learning:** React, SQL, backend architecture
+## 🛠️ Technical Arsenal
 
-## 🚀 Projects
+### Languages
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![SQL](https://img.shields.io/badge/sql-%23003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
-### 📌 QuickNotes AI (Chrome Extension)
-A Chrome extension that summarizes webpages using the OpenAI API.  
-**Tech:** JavaScript, Node.js, OpenAI API  
-**Repo:** _coming soon_
+### Tools & Frameworks
+![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Playwright](https://img.shields.io/badge/playwright-%232EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-### 📌 Vector — Workflow Engine
-A backend workflow engine designed for structured task execution.  
-**Tech:** Node.js, Express, OpenAI API  
-**Repo:** https://github.com/jessebaugh/vector
+**Core Concepts:** API Design, DAG-based Workflow Execution, Data Pipelines, OCR Pipelines
 
-### 📌 Care Access Project
-A data‑driven project focused on improving access to community resources.  
-**Tech:** Python, Pandas  
-**Repo:** https://github.com/jessebaugh/care-access
+## 🚀 Experience & Featured Work
 
-## 🌱 What I'm Working On
-- Building more full‑stack projects  
-- Strengthening algorithms & data structures  
-- Preparing for SWE internships  
-- Improving documentation and project structure
+### 💻 Open-Source Software Engineering Intern | CodeDay Labs (Maxun)
+* Expanded OCR capabilities by integrating Tesseract.js and PaddleOCR for non-text document extraction.
+* Engineered a Prompt-Wrapping Orchestrator enforcing strict JSON boundaries, reducing malformed outputs by ~30% for deterministic extraction across PDFs, CSVs, and other data files.
 
-## 📫 Connect with Me
-**LinkedIn:** https://www.linkedin.com/in/jessebaugh  
-**GitHub:** https://github.com/jessebaugh
+### ⚙ Vector Workflow Engine
+* **Stack:** TypeScript, Node.js, Express, OpenAI API
+* Built a backend developer tool leveraging Directed Acyclic Graphs (DAGs) to compute safe parallel and sequential execution layers for LLM-generated plans.
+* Developed a fault-tolerant validation subsystem with an LLM-driven autofix mechanism to automatically repair malformed JSON steps, missing fields, and mid-plan crashes.
+
+### 🏥 Seattle Care-Access
+* **Stack:** Python, Pandas
+* Developing a platform to streamline access to healthcare resources by connecting users with local care providers in Seattle, WA.
+* Building reproducible data pipelines and collaborating with faculty mentors to refine system architecture and provider matching logic.
+
+## 📬 Let's Connect
+* **Location:** Bellevue, WA
+* **Contact:** J.baugh@bellevuecollege.edu
+* **Resume:** Review my full work history and coursework in [Jesse_Baugh_Resume.pdf](./Jesse_Baugh_Resume.pdf)
