@@ -42,3 +42,4 @@ I am a Computer Science student (BS) at Bellevue College (Expected Spring 2028),
 * **Location:** Bellevue, WA
 * **Contact:** J.baugh@bellevuecollege.edu
 * **Resume:** Review my full work history and coursework in [Jesse_Baugh_Resume.pdf](./Jesse_Baugh_Resume.pdf)
+![](https://jessebaugh.goatcounter.com/count?p=/github-profile)
