@@ -1,6 +1,6 @@
 # Hi, I'm Jesse Baugh 👋
 
-I am a Computer Science student (BS) at Bellevue College (Expected Spring 2028), specializing in backend development, dependency-aware execution engines, and robust data pipelines. I am actively seeking Software Engineering internships for Summer 2027 to apply my skills in scalable systems, AI integrations, and cross-functional team collaboration.
+I am a Computer Science student (BS) at Bellevue College (Expected Spring 2028) focused on the intersection of people, processes, and technology. I enjoy working closely with others to understand real-world challenges, uncover operational bottlenecks, and design AI-powered solutions that make work simpler, more efficient, and more human. My interests include backend systems, workflow automation, systems integration, and building technology that delivers measurable value to the people who use it.
 
 ## 🛠️ Technical Arsenal
 
@@ -20,24 +20,33 @@ I am a Computer Science student (BS) at Bellevue College (Expected Spring 2028),
 ![Playwright](https://img.shields.io/badge/playwright-%232EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-**Core Concepts:** API Design, DAG-based Workflow Execution, Data Pipelines, OCR Pipelines
+**Core Concepts:** Workflow Automation, Backend Systems, Applied AI, Systems Integration, Requirements Discovery, Process Optimization
 
 ## 🚀 Experience & Featured Work
 
-### 💻 Open-Source Software Engineering Intern | CodeDay Labs (Maxun)
-* Expanded OCR capabilities by integrating Tesseract.js and PaddleOCR for non-text document extraction.
-* Engineered a Prompt-Wrapping Orchestrator enforcing strict JSON boundaries, reducing malformed outputs by ~30% for deterministic extraction across PDFs, CSVs, and other data files.
+### 🎓 Student Ambassador, Neurodiversity Navigators | Bellevue College
+* Work directly with students and program staff to support academic success and improve day-to-day operations. 
+* Designed and implemented workflow automation solutions that reduced administrative workload and improved operational efficiency across the program. 
+* Translated real-world staffing and scheduling challenges into scalable software solutions by working closely with stakeholders to understand workflows, constraints, and bottlenecks. 
+* Passionate about finding where technology and AI can eliminate repetitive work so people can focus on higher-value, human-centered tasks.
 
-### ⚙ Vector Workflow Engine
+### 💻 Open-Source Software Engineering Intern | CodeDay Labs (Maxun)
+* Improved document extraction workflows by expanding OCR support with Tesseract.js and PaddleOCR. 
+* Built reliability-focused tooling that reduced malformed AI outputs and improved deterministic processing across PDFs, spreadsheets, and other business documents. 【1-7fc8b9】
+* Worked at the intersection of AI, data extraction, and workflow automation, focusing on solutions that could be trusted in real-world operational environments. 
+
+### ⚙️ Vector Workflow Engine
 * **Stack:** TypeScript, Node.js, Express, OpenAI API
-* Built a backend developer tool leveraging Directed Acyclic Graphs (DAGs) to compute safe parallel and sequential execution layers for LLM-generated plans.
-* Developed a fault-tolerant validation subsystem with an LLM-driven autofix mechanism to automatically repair malformed JSON steps, missing fields, and mid-plan crashes.
+* Built a dependency-aware workflow engine that transforms complex plans into safe, executable workflows using Directed Acyclic Graphs (DAGs). 
+* Developed validation and recovery systems that automatically detect and repair workflow failures, enabling more reliable AI-assisted automation. 
+* Focused on bridging the gap between AI-generated plans and deterministic software execution. 
 
 ### 🏥 Seattle Care-Access
 * **Stack:** Python, Pandas
-* Developing a platform to streamline access to healthcare resources by connecting users with local care providers in Seattle, WA.
-* Building reproducible data pipelines and collaborating with faculty mentors to refine system architecture and provider matching logic.
-
+* Building a platform that helps connect people with local healthcare resources throughout the Seattle area.
+* Developing reproducible data pipelines and provider-matching workflows designed to make healthcare information easier to find and navigate.
+* Collaborating with faculty mentors and community stakeholders to better understand user needs and translate them into practical technical solutions.
+  
 ## 📬 Let's Connect
 * **Location:** Bellevue, WA
 * **Contact:** J.baugh@bellevuecollege.edu
