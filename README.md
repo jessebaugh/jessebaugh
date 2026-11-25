@@ -2,9 +2,9 @@
 
 I'm a Computer Science & Software Engineering student at the University of Washington Bothell, pursuing the Information Assurance & Cybersecurity option. My focus is where AI and cybersecurity meet: how agent systems can be attacked, and how to build them so they stay under human control.
 
-I build AI agent systems and the backend software behind them, mostly in TypeScript and Node.js. Recent work: a workflow engine for LLM agents, a native macOS app for running and supervising them, and backend OCR and prompt-handling work on Maxun with a CodeDay Labs team.
+I build AI agent systems and the backend software behind them, mostly in TypeScript and Node.js. Recent work: an engine for building and running LLM agents, a native macOS app for supervising them, and backend OCR and prompt-handling work on Maxun with a CodeDay Labs team.
 
-## 🛠️ Technical Arsenal
+## 🛠️ Skills
 
 ### Languages
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -22,7 +22,7 @@ I build AI agent systems and the backend software behind them, mostly in TypeScr
 ![Playwright](https://img.shields.io/badge/playwright-%232EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-**Core Concepts:** Workflow Automation, Backend Systems, Applied AI, Systems Integration, Requirements Discovery, Process Optimization
+**Core areas:** AI agents, backend systems, workflow automation, API integration
 
 ## 🚀 Experience & Featured Work
 
@@ -35,8 +35,8 @@ I build AI agent systems and the backend software behind them, mostly in TypeScr
 
 ### 💻 Open-Source Software Engineering Intern | CodeDay Labs (Maxun)
 **Stack:** TypeScript, Node.js, Playwright, Tesseract.js, PaddleOCR
-* Built backend routing that sends JPG and PNG uploads to the OCR pipeline, as part of a team adding image support to Maxun's document extraction ([https://github.com/getmaxun/maxun/issues/1110](https://github.com/getmaxun/maxun/issues/1110)).
-* Wrote a prompt wrapper that enforces strict JSON output from LLMs, cutting malformed responses by about 30% across PDF, DOCX, XLSX and CSV files ([https://github.com/getmaxun/maxun/issues/1201](https://github.com/getmaxun/maxun/pull/1201)).
+* Built backend routing that sends JPG and PNG uploads to the OCR pipeline, as part of a team adding image support to Maxun's document extraction. The feature was requested in [#1110](https://github.com/getmaxun/maxun/issues/1110) and merged in [#1202](https://github.com/getmaxun/maxun/pull/1202).
+* Wrote a prompt wrapper that enforces strict JSON output from LLMs. In testing it reduced malformed responses by about 30% across PDF, DOCX, XLSX and CSV files ([#1201](https://github.com/getmaxun/maxun/pull/1201), not merged).
 
 ### ⚙️ Vector Agent Engine
 **Stack:** TypeScript, Node.js
