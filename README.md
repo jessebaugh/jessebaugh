@@ -32,7 +32,7 @@ I am a Computer Science student (BS) at Bellevue College (Expected Spring 2028) 
 
 ### 💻 Open-Source Software Engineering Intern | CodeDay Labs (Maxun)
 * Improved document extraction workflows by expanding OCR support with Tesseract.js and PaddleOCR. 
-* Built reliability-focused tooling that reduced malformed AI outputs and improved deterministic processing across PDFs, spreadsheets, and other business documents. 【1-7fc8b9】
+* Built reliability-focused tooling that reduced malformed AI outputs and improved deterministic processing across PDFs, spreadsheets, and other business documents. 
 * Worked at the intersection of AI, data extraction, and workflow automation, focusing on solutions that could be trusted in real-world operational environments. 
 
 ### ⚙️ Vector Workflow Engine
