@@ -59,5 +59,4 @@ I build AI agent systems and the backend software behind them, mostly in TypeScr
 ## 📬 Let's Connect
 * **Location:** Bellevue, WA
 * **Contact:** jessejmb@uw.edu
-* **Resume:** Review my full work history and coursework in [Jesse_Baugh_Resume.pdf](./Jesse_Baugh_Resume.pdf)
-![](https://jessebaugh.goatcounter.com/count?p=/github-profile)
+* **Resume:** Review my full work history and coursework in [Michael_Baugh_Resume.pdf](Michael_Baugh_Resume.pdf)
