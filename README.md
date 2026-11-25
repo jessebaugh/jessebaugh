@@ -1,6 +1,8 @@
 # Hi, I'm Jesse Baugh 👋
 
-I am a Computer Science student (BS) at Bellevue College (Expected Spring 2028) focused on the intersection of people, processes, and technology. I enjoy working closely with others to understand real-world challenges, uncover operational bottlenecks, and design AI-powered solutions that make work simpler, more efficient, and more human. My interests include backend systems, workflow automation, systems integration, and building technology that delivers measurable value to the people who use it.
+I'm a Computer Science & Software Engineering student at the University of Washington Bothell, pursuing the Information Assurance & Cybersecurity option. My focus is where AI and cybersecurity meet: how agent systems can be attacked, and how to build them so they stay under human control.
+
+I build AI agent systems and the backend software behind them, mostly in TypeScript and Node.js. Recent work: a workflow engine for LLM agents, a native macOS app for running and supervising them, and backend OCR and prompt-handling work on Maxun with a CodeDay Labs team.
 
 ## 🛠️ Technical Arsenal
 
@@ -25,30 +27,37 @@ I am a Computer Science student (BS) at Bellevue College (Expected Spring 2028) 
 ## 🚀 Experience & Featured Work
 
 ### 🎓 Student Ambassador, Neurodiversity Navigators | Bellevue College
-* Work directly with students and program staff to support academic success and improve day-to-day operations. 
-* Designed and implemented workflow automation solutions that reduced administrative workload and improved operational efficiency across the program. 
-* Translated real-world staffing and scheduling challenges into scalable software solutions by working closely with stakeholders to understand workflows, constraints, and bottlenecks. 
-* Passionate about finding where technology and AI can eliminate repetitive work so people can focus on higher-value, human-centered tasks.
+**Stack:** TypeScript, Node.js, Microsoft Graph API, OAuth 2.0
+* Built an automated, FERPA-compliant meeting scheduler that cut administrative scheduling work by 9 hours a week after department staffing reductions.
+* Wrote the backend to ingest batch CSV reports from ctcLink and TargetX and match students to peer mentors.
+* Integrated the Microsoft Graph API to send Outlook invites with Teams links automatically.
+* Moved the program's Excel tracking sheets into SharePoint Lists.
 
 ### 💻 Open-Source Software Engineering Intern | CodeDay Labs (Maxun)
-* Improved document extraction workflows by expanding OCR support with Tesseract.js and PaddleOCR. 
-* Built reliability-focused tooling that reduced malformed AI outputs and improved deterministic processing across PDFs, spreadsheets, and other business documents. 
-* Worked at the intersection of AI, data extraction, and workflow automation, focusing on solutions that could be trusted in real-world operational environments. 
+**Stack:** TypeScript, Node.js, Playwright, Tesseract.js, PaddleOCR
+* Built backend routing that sends JPG and PNG uploads to the OCR pipeline, as part of a team adding image support to Maxun's document extraction ([https://github.com/getmaxun/maxun/issues/1110](https://github.com/getmaxun/maxun/issues/1110)).
+* Wrote a prompt wrapper that enforces strict JSON output from LLMs, cutting malformed responses by about 30% across PDF, DOCX, XLSX and CSV files ([https://github.com/getmaxun/maxun/issues/1201](https://github.com/getmaxun/maxun/pull/1201)).
 
 ### ⚙️ Vector Workflow Engine
-* **Stack:** TypeScript, Node.js, Express, OpenAI API
-* Built a dependency-aware workflow engine that transforms complex plans into safe, executable workflows using Directed Acyclic Graphs (DAGs). 
-* Developed validation and recovery systems that automatically detect and repair workflow failures, enabling more reliable AI-assisted automation. 
-* Focused on bridging the gap between AI-generated plans and deterministic software execution. 
+**Stack:** TypeScript, Node.js, Express, OpenAI API
+* A workflow engine that turns an LLM-generated plan into a dependency graph and runs it with validation and parallel execution.
+* Detects failed steps and repairs the workflow automatically before continuing.
+* Private repository. Walkthrough available on request.
 
-### 🏥 Seattle Care-Access
-* **Stack:** Python, Pandas
-* Building a platform that helps connect people with local healthcare resources throughout the Seattle area.
-* Developing reproducible data pipelines and provider-matching workflows designed to make healthcare information easier to find and navigate.
-* Collaborating with faculty mentors and community stakeholders to better understand user needs and translate them into practical technical solutions.
+### 🖥️ AgentXOS
+**Stack:** Swift, TypeScript
+* A native macOS app for creating, scheduling and supervising AI agents, built on the Vector engine.
+* Agents ask for approval before sensitive actions, so a person stays in control of what they do.
+* In development. Private repository.
+
+### 🏥 Care Access: Washington Healthcare Deserts
+**Stack:** Python, pandas, shapely, folium, OpenStreetMap Overpass API
+* An analysis of healthcare access across Washington State, published as an [interactive map](https://github.com/jessebaugh/care-access-project).
+* Found near-zero emergency facilities per 10,000 residents in several rural eastern counties, including Whitman, Ferry, Lincoln and Stevens.
+* Maps 30-mile zones around emergency hospitals to show where coverage runs out.
   
 ## 📬 Let's Connect
 * **Location:** Bellevue, WA
-* **Contact:** J.baugh@bellevuecollege.edu
+* **Contact:** jessejmb@uw.edu
 * **Resume:** Review my full work history and coursework in [Jesse_Baugh_Resume.pdf](./Jesse_Baugh_Resume.pdf)
 ![](https://jessebaugh.goatcounter.com/count?p=/github-profile)
