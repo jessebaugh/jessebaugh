@@ -38,10 +38,10 @@ I build AI agent systems and the backend software behind them, mostly in TypeScr
 * Built backend routing that sends JPG and PNG uploads to the OCR pipeline, as part of a team adding image support to Maxun's document extraction ([https://github.com/getmaxun/maxun/issues/1110](https://github.com/getmaxun/maxun/issues/1110)).
 * Wrote a prompt wrapper that enforces strict JSON output from LLMs, cutting malformed responses by about 30% across PDF, DOCX, XLSX and CSV files ([https://github.com/getmaxun/maxun/issues/1201](https://github.com/getmaxun/maxun/pull/1201)).
 
-### ⚙️ Vector Workflow Engine
-**Stack:** TypeScript, Node.js, Express, OpenAI API
-* A workflow engine that turns an LLM-generated plan into a dependency graph and runs it with validation and parallel execution.
-* Detects failed steps and repairs the workflow automatically before continuing.
+### ⚙️ Vector Agent Engine
+**Stack:** TypeScript, Node.js
+* An engine for building AI agents of different kinds from one shared base. It powers AgentXOS.
+* Plans work as a dependency graph and runs steps in order or in parallel, with validation and automatic repair of failed steps.
 * Private repository. Walkthrough available on request.
 
 ### 🖥️ AgentXOS
