@@ -1,4 +1,4 @@
-# Hi, I'm Jesse Baugh 👋
+# Hi, I'm Michael (Jesse) Baugh 👋
 
 I'm a Computer Science & Software Engineering student at the University of Washington Bothell, pursuing the Information Assurance & Cybersecurity option. My focus is where AI and cybersecurity meet: how agent systems can be attacked, and how to build them so they stay under human control.
 
